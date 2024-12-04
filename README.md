@@ -13,3 +13,26 @@ The IPs from LinkingLion were not copied, they were found displaying this weird 
 
 To use download `ban_list.txt` and start `monerod` with `--ban-list /path/to/ban_list.txt` 
 or add `ban-list=/path/to/ban_list.txt` to your `bitmonero.conf` file.
+
+### Signatures 
+
+To verify the signatures get our GPG keys from these locations:
+
+| Person  | Location                                                                                         |
+|---------|--------------------------------------------------------------------------------------------------|
+| boog900 | <https://github.com/Cuprate/cuprate/tree/7b8756fa80e386fb04173d8220c15c86bf9f9888/misc/gpg_keys> |
+
+Then import the keys and verify the signatures:
+
+```bash
+gpg --verify ./sigs/boog900.sig ban_list.txt
+```
+
+You should now see: 
+```
+gpg: Signature made Wed Dec  4 23:06:44 2024 GMT
+gpg:                using EDDSA key A875F544CB569CB96889791E42AB1287CB0041C2
+gpg: Good signature from "Boog900 ...
+```
+
+Now repeat with as many `Person`'s signatures as you please.
