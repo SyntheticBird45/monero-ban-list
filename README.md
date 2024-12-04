@@ -30,7 +30,7 @@ gpg --verify ./sigs/boog900.sig ban_list.txt
 
 You should now see: 
 ```
-gpg: Signature made Wed Dec  4 23:06:44 2024 GMT
+gpg: Signature made Wed Dec  4 23:27:28 2024 GMT
 gpg:                using EDDSA key A875F544CB569CB96889791E42AB1287CB0041C2
 gpg: Good signature from "Boog900 ...
 ```
