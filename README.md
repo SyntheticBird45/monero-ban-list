@@ -21,6 +21,7 @@ To verify the signatures get our GPG keys from these locations:
 | Person  | Location                                                                                         |
 |---------|--------------------------------------------------------------------------------------------------|
 | boog900 | <https://github.com/Cuprate/cuprate/tree/7b8756fa80e386fb04173d8220c15c86bf9f9888/misc/gpg_keys> |
+| Rucknium | <https://rucknium.me/pgp.txt> |
 
 Then import the keys and verify the signatures:
 
