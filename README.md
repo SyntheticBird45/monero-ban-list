@@ -23,7 +23,7 @@ To verify the signatures get our GPG keys from these locations:
 | boog900       | <https://github.com/Cuprate/cuprate/tree/7b8756fa80e386fb04173d8220c15c86bf9f9888/misc/gpg_keys>                      |
 | jeffro256     | <https://github.com/monero-project/monero/blob/004ead1a14d60ff757880c5b16b894b526427829/utils/gpg_keys/jeffro256.asc> |
 | Rucknium      | <https://rucknium.me/pgp.txt>                                                                                         |
-| SyntheticBird | <https://github.com/Cuprate/cuprate/blob/main/misc/gpg_keys/syntheticbird.asc>                                        |
+| syntheticbird | <https://github.com/Cuprate/cuprate/blob/main/misc/gpg_keys/syntheticbird.asc>                                        |
 
 Then import the keys and verify the signatures:
 
